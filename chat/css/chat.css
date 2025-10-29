@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    width: 450px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    overflow: hidden;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .details h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+header .details p {
+    margin: 2px 0 0;
+    font-size: 12px;
+}
+
+.logout {
+    color: white;
+    text-decoration: none;
+    background: #f44336;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.chat-box {
+    height: 400px;
+    padding: 10px;
+    overflow-y: auto;
+    background: #fafafa;
+    border-bottom: 1px solid #ccc;
+}
+
+.pesan {
+    margin: 10px 0;
+    padding: 8px 12px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.pesan_masuk {
+    background: #e4e4e4;
+    align-self: flex-start;
+}
+
+.pesan_keluar {
+    background: #4CAF50;
+    color: white;
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+form {
+    display: flex;
+    padding: 10px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

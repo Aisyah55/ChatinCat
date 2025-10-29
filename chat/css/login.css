@@ -1,0 +1,91 @@
+/* ==== RESET ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ==== BODY ==== */
+body {
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+/* ==== CONTAINER ==== */
+.container {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+  width: 350px;
+}
+
+/* ==== TITLE ==== */
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+/* ==== INPUT FIELD ==== */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #333;
+  box-shadow: 0 0 5px #4e9fff;
+}
+
+/* ==== BUTTON ==== */
+.btn-signin {
+  width: 100%;
+  padding: 12px;
+  background-color: #4e9fff;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-signin:hover {
+  background-color: #3b82f6;
+}
+
+/* ==== LINK ==== */
+p {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+p a {
+  color: #4e9fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
